@@ -1,11 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu JS</title>
+  <!-- Déclaration de la feuille de style -->
+  <link rel="stylesheet" href="/src/css/components/menu.css" />
+  <script type="module" src="/src/js/script.js"></script>
 </head>
+
 <body>
-    
+  <!-- En-tête de la page -->
+  <header class="header container">
+
+    <div class="header__end">
+
+      <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+      🗂️​
+      </button>
+
+      <!-- Menu principal -->
+      <nav class="header__menu menu" id="mainNav" aria-hidden="false">
+        <ul class="menu__list list-unstyled">
+          <li class="menu__item">
+            <a class="menu__link" href="/cats/indexchats.html">Album de Chats</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="/dogs/indexchiens.html">Album de Chiens</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Fin du menu principal -->
+    </div>
+  </header>
+  <!-- Contenu principal de la page -->
+  <main>
+  </main>
+  <!-- Fin du contenu principal -->
+
 </body>
+
 </html>
